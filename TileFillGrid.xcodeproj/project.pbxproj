@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB88D0616DD581C00F7C432 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB88D0516DD581C00F7C432 /* Cocoa.framework */; };
+		CBB88D1016DD581C00F7C432 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBB88D0E16DD581C00F7C432 /* InfoPlist.strings */; };
+		CBB88D1216DD581C00F7C432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB88D1116DD581C00F7C432 /* main.m */; };
+		CBB88D1616DD581C00F7C432 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CBB88D1416DD581C00F7C432 /* Credits.rtf */; };
+		CBB88D1916DD581C00F7C432 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB88D1816DD581C00F7C432 /* AppDelegate.m */; };
+		CBB88D1C16DD581C00F7C432 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB88D1A16DD581C00F7C432 /* MainMenu.xib */; };
+		CBECC11C16DD5B3500A3C647 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBECC11A16DD5B3500A3C647 /* MainViewController.m */; };
+		CBECC11D16DD5B3500A3C647 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBECC11B16DD5B3500A3C647 /* MainViewController.xib */; };
+		CBECC12016DE41E500A3C647 /* SiblingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = CBECC11F16DE41E500A3C647 /* SiblingRect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBB88D0216DD581C00F7C432 /* TileFillGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileFillGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB88D0516DD581C00F7C432 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CBB88D0816DD581C00F7C432 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CBB88D0916DD581C00F7C432 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CBB88D0A16DD581C00F7C432 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBB88D0D16DD581C00F7C432 /* TileFillGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TileFillGrid-Info.plist"; sourceTree = "<group>"; };
+		CBB88D0F16DD581C00F7C432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBB88D1116DD581C00F7C432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBB88D1316DD581C00F7C432 /* TileFillGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TileFillGrid-Prefix.pch"; sourceTree = "<group>"; };
+		CBB88D1516DD581C00F7C432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CBB88D1716DD581C00F7C432 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBB88D1816DD581C00F7C432 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBB88D1B16DD581C00F7C432 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CBECC11916DD5B3500A3C647 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CBECC11A16DD5B3500A3C647 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CBECC11B16DD5B3500A3C647 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		CBECC11E16DE41E500A3C647 /* SiblingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiblingRect.h; sourceTree = "<group>"; };
+		CBECC11F16DE41E500A3C647 /* SiblingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiblingRect.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB88CFF16DD581C00F7C432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB88D0616DD581C00F7C432 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB88CF916DD581C00F7C432 = {
+			isa = PBXGroup;
+			children = (
+				CBB88D0B16DD581C00F7C432 /* TileFillGrid */,
+				CBB88D0416DD581C00F7C432 /* Frameworks */,
+				CBB88D0316DD581C00F7C432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB88D0316DD581C00F7C432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB88D0216DD581C00F7C432 /* TileFillGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB88D0416DD581C00F7C432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB88D0516DD581C00F7C432 /* Cocoa.framework */,
+				CBB88D0716DD581C00F7C432 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB88D0716DD581C00F7C432 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB88D0816DD581C00F7C432 /* AppKit.framework */,
+				CBB88D0916DD581C00F7C432 /* CoreData.framework */,
+				CBB88D0A16DD581C00F7C432 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CBB88D0B16DD581C00F7C432 /* TileFillGrid */ = {
+			isa = PBXGroup;
+			children = (
+				CBB88D1716DD581C00F7C432 /* AppDelegate.h */,
+				CBB88D1816DD581C00F7C432 /* AppDelegate.m */,
+				CBB88D1A16DD581C00F7C432 /* MainMenu.xib */,
+				CBB88D0C16DD581C00F7C432 /* Supporting Files */,
+				CBECC11916DD5B3500A3C647 /* MainViewController.h */,
+				CBECC11A16DD5B3500A3C647 /* MainViewController.m */,
+				CBECC11B16DD5B3500A3C647 /* MainViewController.xib */,
+				CBECC11E16DE41E500A3C647 /* SiblingRect.h */,
+				CBECC11F16DE41E500A3C647 /* SiblingRect.m */,
+			);
+			path = TileFillGrid;
+			sourceTree = "<group>";
+		};
+		CBB88D0C16DD581C00F7C432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB88D0D16DD581C00F7C432 /* TileFillGrid-Info.plist */,
+				CBB88D0E16DD581C00F7C432 /* InfoPlist.strings */,
+				CBB88D1116DD581C00F7C432 /* main.m */,
+				CBB88D1316DD581C00F7C432 /* TileFillGrid-Prefix.pch */,
+				CBB88D1416DD581C00F7C432 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB88D0116DD581C00F7C432 /* TileFillGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB88D1F16DD581C00F7C432 /* Build configuration list for PBXNativeTarget "TileFillGrid" */;
+			buildPhases = (
+				CBB88CFE16DD581C00F7C432 /* Sources */,
+				CBB88CFF16DD581C00F7C432 /* Frameworks */,
+				CBB88D0016DD581C00F7C432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TileFillGrid;
+			productName = TileFillGrid;
+			productReference = CBB88D0216DD581C00F7C432 /* TileFillGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB88CFA16DD581C00F7C432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jewelry Television";
+			};
+			buildConfigurationList = CBB88CFD16DD581C00F7C432 /* Build configuration list for PBXProject "TileFillGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBB88CF916DD581C00F7C432;
+			productRefGroup = CBB88D0316DD581C00F7C432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB88D0116DD581C00F7C432 /* TileFillGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB88D0016DD581C00F7C432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB88D1016DD581C00F7C432 /* InfoPlist.strings in Resources */,
+				CBB88D1616DD581C00F7C432 /* Credits.rtf in Resources */,
+				CBB88D1C16DD581C00F7C432 /* MainMenu.xib in Resources */,
+				CBECC11D16DD5B3500A3C647 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB88CFE16DD581C00F7C432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB88D1216DD581C00F7C432 /* main.m in Sources */,
+				CBB88D1916DD581C00F7C432 /* AppDelegate.m in Sources */,
+				CBECC11C16DD5B3500A3C647 /* MainViewController.m in Sources */,
+				CBECC12016DE41E500A3C647 /* SiblingRect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBB88D0E16DD581C00F7C432 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB88D0F16DD581C00F7C432 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBB88D1416DD581C00F7C432 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB88D1516DD581C00F7C432 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CBB88D1A16DD581C00F7C432 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB88D1B16DD581C00F7C432 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB88D1D16DD581C00F7C432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBB88D1E16DD581C00F7C432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBB88D2016DD581C00F7C432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TileFillGrid/TileFillGrid-Prefix.pch";
+				INFOPLIST_FILE = "TileFillGrid/TileFillGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBB88D2116DD581C00F7C432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TileFillGrid/TileFillGrid-Prefix.pch";
+				INFOPLIST_FILE = "TileFillGrid/TileFillGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB88CFD16DD581C00F7C432 /* Build configuration list for PBXProject "TileFillGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB88D1D16DD581C00F7C432 /* Debug */,
+				CBB88D1E16DD581C00F7C432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB88D1F16DD581C00F7C432 /* Build configuration list for PBXNativeTarget "TileFillGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB88D2016DD581C00F7C432 /* Debug */,
+				CBB88D2116DD581C00F7C432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB88CFA16DD581C00F7C432 /* Project object */;
+}
